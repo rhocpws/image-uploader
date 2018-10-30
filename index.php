@@ -4,13 +4,16 @@
 $author = getenv('AUTHOR');
 $storage_type = getenv('STORAGE_TYPE');
 
-echo "<title>Image Library Demo Application by " . $author . "</title>";
+echo "<title>Boingo Image Library Demo Application by " . $author . "</title>";
 
 ?>
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet">
 <style>
 body {
-    background-color: lightgrey;
+    background-color: #ffffff;
     font-family: arial;
+	margin: 0px;
+	height: 100%;
 }
 
 #body-wrapper {
@@ -19,26 +22,66 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 25px;
     padding-bottom: 200px;
 }
+	
+#navbar {
+	background: rgba(0,0,0,.75);
+	height: 82px;
+	margin-top: -25px;
+	}
+	
+#footer {
+	background: rgba(0,0,0,.75);
+	height: 7px;
+	margin-top: 25px;
+	padding: 25px;
+	position: absolute;
+	bottom: 0px;
+	font-size: 10px;
+	color: #ffffff;
+	}
+	
+#logo {
+	width: 149px;
+    border-right: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: -webkit-box;
+    margin: 25;
+	}
 
 h1 {
-    font-family: arial;
+    font-family: 'Alfa Slab One', cursive;
+	margin: 0px;
+	color: rgba(0,0,0,.75);
+}
+	
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+	margin: 0px;
+	color: rgba(0,0,0,.75);
+}
+	
+h3 {
+    font-family: 'Alfa Slab One', cursive;
+	margin: 0px;
+	color: rgba(0,0,0,.75);
 }
 img {
     padding: 10px;
 }
 .wrapper {
-    border-radius: 25px;
-    border: 1px solid #333;
+    border-radius: 5px;
+    border: 1px solid lightgray;
     padding: 25px;
     width: 40%;
     margin: 20px;
 }
 #upload-form {
-    background-color: #ddd;
+    background-color: #f2f2f2;
 }
 
 #results-box {
@@ -51,6 +94,13 @@ img {
 </style>
 </head>
 <body>
+	<div id="navbar">
+		<div id="logo">
+			<a href="http://www.boingo.com" target="_blank"><img src="images/copy-cropped-icons1.png"/></a>
+		</div>
+	
+	
+	</div>
 <div id="body-wrapper">
 <?php 
 echo "
@@ -111,9 +161,12 @@ echo "</div>";
 echo "<h3>Uploaded Files</h3>";
 $files = array_diff(scandir($target_dir), array('.', '..','uploads','.trashcan'));
 foreach ($files as $f) {
-  echo "<a href='uploads/$f'><img src='uploads/$f' width='100px' height='100px'/></a>";
+  echo "<a href='uploads/$f' target='blank'><img src='uploads/$f' width='40%' /></a>";
 }
 ?>
 </div>
+	<div id="footer">
+	© 2018 Boingo Wireless, Inc. All rights reserved. Boingo, Boingo Wireless, Boingo Wi-Finder and the Boingo Wireless Logo are registered trademarks of Boingo Wireless, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions | Condições de Oferta des Serviçios
+	</div>
 </body>
 </html>
