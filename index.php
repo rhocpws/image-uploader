@@ -39,7 +39,6 @@ body {
 	margin-top: 25px;
 	padding: 25px;
 	position: absolute;
-	bottom: 0px;
 	font-size: 10px;
 	color: #ffffff;
 	}
