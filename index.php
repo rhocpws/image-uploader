@@ -4,7 +4,7 @@
 $author = getenv('AUTHOR');
 $storage_type = getenv('STORAGE_TYPE');
 
-echo "<title>Boingo Image Library Demo Application by " . $author . "</title>";
+echo "<title>Red Hat Image Library Demo Application by Bill Novak " . $author . "</title>";
 
 ?>
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet">
