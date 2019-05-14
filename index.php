@@ -4,7 +4,7 @@
 $author = getenv('AUTHOR');
 $storage_type = getenv('STORAGE_TYPE');
 
-echo "<title>Red Hat Image Library Demo Application by Bill Novak or Illumina " . $author . "</title>";
+echo "<title>Red Hat Image Library Demo Application by Bill Novak" . $author . "</title>";
 
 ?>
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet"/>
@@ -49,14 +49,18 @@ body {
     width: 100%;
 	text-align: center;
 	color: #ffffff;
+	font-size: 11px;
+	padding-top: 20px;
 	}
 	
 #logo {
     border-right: white;
     border-right-style: solid;
     border-right-width: 1px;
-    display: -webkit-box;
-    margin: 25;
+    margin: 25px;
+	widows: 150px;
+	heigh: 82px;
+	padding-top:13px;
 	}
 	.new-logo {
 	max-height: 50px;
@@ -175,6 +179,6 @@ foreach ($files as $f) {
 ?>
 </div>
 	<div id="footer">
-	© 2018 Red Hat, Inc. All rights reserved. Boingo, Red Hat,  the Red Hat Logo are registered trademarks of Red Hat, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions </div>
+	© 2018 Red Hat, Inc. All rights reserved.  Red Hat,  the Red Hat Logo are registered trademarks of Red Hat, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions </div>
 </body>
 </html>
