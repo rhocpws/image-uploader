@@ -34,6 +34,7 @@ body {
 	}
 	
 #footer {
+	widows: 100%;
 	background: rgba(0,0,0,.75);
 	height: 7px;
 	margin-top: 25px;
@@ -44,7 +45,7 @@ body {
 	}
 	
 #logo {
-	width: 149px;
+	max-width: 149px;
     border-right: white;
     border-right-style: solid;
     border-right-width: 1px;
@@ -166,7 +167,6 @@ foreach ($files as $f) {
 ?>
 </div>
 	<div id="footer">
-	© 2018 Boingo Wireless, Inc. All rights reserved. Boingo, Boingo Wireless, Boingo Wi-Finder and the Boingo Wireless Logo are registered trademarks of Boingo Wireless, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions | Condições de Oferta des Serviçios
-	</div>
+	© 2018 Red Hat, Inc. All rights reserved. Boingo, Red Hat,  the Red Hat Logo are registered trademarks of Red Hat, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions </div>
 </body>
 </html>
