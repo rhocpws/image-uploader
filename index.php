@@ -48,6 +48,7 @@ body {
     height: 60px;
     width: 100%;
 	text-align: center;
+	color: #ffffff;
 	}
 	
 #logo {
