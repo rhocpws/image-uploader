@@ -9,11 +9,17 @@ echo "<title>Red Hat Image Library Demo Application by Bill Novak or Illumina " 
 ?>
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet">
 <style>
+	
+html {
+  height: 100%;
+}	
 body {
     background-color: #ffffff;
     font-family: arial;
 	margin: 0px;
-	height: 100%;
+	min-height: 100%;
+	display: grid;
+  	grid-template-rows: 1fr auto;
 }
 
 #body-wrapper {
@@ -42,6 +48,8 @@ body {
 	position: absolute;
 	font-size: 10px;
 	color: #ffffff;
+	grid-row-start: 2;
+  	grid-row-end: 3;
 	}
 	
 #logo {
