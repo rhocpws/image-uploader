@@ -58,7 +58,7 @@ body {
     border-right-style: solid;
     border-right-width: 1px;
     margin: 25px;
-	widows: 150px;
+	width: 150px;
 	heigh: 82px;
 	padding-top:13px;
 	}
