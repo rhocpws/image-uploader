@@ -104,7 +104,7 @@ img {
 <body>
 	<div id="navbar">
 		<div id="logo">
-			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo.png"/></a>
+			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo-r.png"/></a>
 		</div>
 	
 	
