@@ -7,10 +7,10 @@ $storage_type = getenv('STORAGE_TYPE');
 echo "<title>Red Hat Image Library Demo Application by Bill Novak or Illumina " . $author . "</title>";
 
 ?>
-<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
 	
-	@import "//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css";
 	
 html {
   	min-height: 100%;
@@ -47,6 +47,7 @@ body {
     bottom: 0;
     height: 60px;
     width: 100%;
+	text-align: center;
 	}
 	
 #logo {
