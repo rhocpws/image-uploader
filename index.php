@@ -10,16 +10,16 @@ echo "<title>Red Hat Image Library Demo Application by Bill Novak or Illumina " 
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet">
 <style>
 	
+	@import "//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css";
+	
 html {
-  height: 100%;
+  	min-height: 100%;
+	position: relative;
 }	
 body {
     background-color: #ffffff;
     font-family: arial;
-	margin: 0px;
-	min-height: 100%;
-	display: grid;
-  	grid-template-rows: 1fr auto;
+    margin: 0 0 60px; /* bottom has to be the same as footer height */
 }
 
 #body-wrapper {
@@ -42,14 +42,11 @@ body {
 #footer {
 	widows: 100%;
 	background: rgba(0,0,0,.75);
-	height: 7px;
-	margin-top: 25px;
-	padding: 25px;
 	position: absolute;
-	font-size: 10px;
-	color: #ffffff;
-	grid-row-start: 2;
-  	grid-row-end: 3;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
 	}
 	
 #logo {
