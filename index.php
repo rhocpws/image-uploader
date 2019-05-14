@@ -45,15 +45,16 @@ body {
 	}
 	
 #logo {
-	max-width: 149px;
     border-right: white;
     border-right-style: solid;
     border-right-width: 1px;
     display: -webkit-box;
     margin: 25;
-	overflow: height:;
 	}
-
+	.new-logo {
+	max-height: 50px;
+	max-width: 150px;
+	}
 h1 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
@@ -97,7 +98,7 @@ img {
 <body>
 	<div id="navbar">
 		<div id="logo">
-			<a href="http://www.redhat.com" target="_blank"><img src="images/logo.png"/></a>
+			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo.png"/></a>
 		</div>
 	
 	
