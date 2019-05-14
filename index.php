@@ -50,6 +50,7 @@ body {
     border-right-width: 1px;
     display: -webkit-box;
     margin: 25;
+	overflow: height:;
 	}
 
 h1 {
@@ -95,7 +96,7 @@ img {
 <body>
 	<div id="navbar">
 		<div id="logo">
-			<a href="http://www.boingo.com" target="_blank"><img src="images/copy-cropped-icons1.png"/></a>
+			<a href="http://www.redhat.com" target="_blank"><img src="images/logo.png"/></a>
 		</div>
 	
 	
