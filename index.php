@@ -62,9 +62,8 @@ body {
 	heigh: 82px;
 	padding-top:13px;
 	}
-	.new-logo {
-	max-height: 50px;
-	max-width: 150px;
+.new-logo {
+	max-width: 190px;
 	}
 h1 {
     font-family: 'Alfa Slab One', cursive;
