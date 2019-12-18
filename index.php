@@ -116,7 +116,7 @@ img {
 <div id="body-wrapper">
 <?php
 echo "
-<h1>Image Library with " . $storage_type . " storage backend.</h1>
+<h1>Green Dot Image Library with " . $storage_type . " storage backend.</h1>
 "
 ?>
 <div class="wrapper" id="upload-form">
