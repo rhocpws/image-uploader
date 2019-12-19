@@ -10,12 +10,12 @@ echo "<title>Red Hat Image Library Demo Application by Bill Novak" . $author . "
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Slabo+13px" rel="stylesheet"/>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
-	
-	
+
+
 html {
   	min-height: 100%;
 	position: relative;
-}	
+}
 body {
     background-color: #ffffff;
     font-family: arial;
@@ -32,13 +32,13 @@ body {
     padding: 25px;
     padding-bottom: 200px;
 }
-	
+
 #navbar {
 	background: rgba(0,0,0,.75);
 	height: 82px;
 	margin-top: -25px;
 	}
-	
+
 #footer {
 	widows: 100%;
 	background: rgba(0,0,0,.75);
@@ -52,7 +52,7 @@ body {
 	font-size: 11px;
 	padding-top: 20px;
 	}
-	
+
 #logo {
     border-right: white;
     border-right-style: solid;
@@ -68,15 +68,15 @@ body {
 h1 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: rgba(0,0,0,.75);
+	color: rgba(0,0,0,.85);
 }
-	
+
 h2 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
 	color: rgba(0,0,0,.75);
 }
-	
+
 h3 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
@@ -110,11 +110,11 @@ img {
 		<div id="logo">
 			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo-reverse.png"/></a>
 		</div>
-	
-	
+
+
 	</div>
 <div id="body-wrapper">
-<?php 
+<?php
 echo "
 <h1>Green Dot Image Library with " . $storage_type . " storage backend.</h1>
 "
