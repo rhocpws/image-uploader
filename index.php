@@ -178,6 +178,6 @@ foreach ($files as $f) {
 ?>
 </div>
 	<div id="footer">
-	© 2018 Red Hat, Inc. All rights reserved.  Red Hat,  the Red Hat Logo are registered trademarks of Red Hat, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions </div>
+	© 2018 Red Hat, Inc All rights reserved.  Red Hat,  the Red Hat Logo are registered trademarks of Red Hat, Inc. Trademarks included are the property of their respective companies. Privacy Policy | Terms of Use | Service Provision Conditions </div>
 </body>
 </html>
