@@ -34,14 +34,14 @@ body {
 }
 	
 #navbar {
-	background: rgba(0,0,0,.75);
+	background: #01ae41;
 	height: 82px;
 	margin-top: -25px;
 	}
 	
 #footer {
 	widows: 100%;
-	background: rgba(0,0,0,.75);
+	background: ##01ae41;
 	position: absolute;
     left: 0;
     bottom: 0;
@@ -68,19 +68,19 @@ body {
 h1 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: rgba(0,0,0,.75);
+	color: ##01ae41;
 }
 	
 h2 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: rgba(0,0,0,.75);
+	color: ##01ae41;
 }
 	
 h3 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: rgba(0,0,0,.75);
+	color: #01ae41;
 }
 img {
     padding: 10px;
@@ -108,7 +108,7 @@ img {
 <body>
 	<div id="navbar">
 		<div id="logo">
-			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo-reverse.png"/></a>
+			<a href="http://www.greendot.com" target="_blank"><img class="new-logo" src="images/g-logo-reverse.png"/></a>
 		</div>
 	
 	
