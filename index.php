@@ -68,19 +68,19 @@ body {
 h1 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: ##01ae41;
+	color: #01ae41 !important;
 }
 	
 h2 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: ##01ae41;
+	color: #01ae41 !important;
 }
 	
 h3 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: #01ae41;
+	color: #01ae41 !important;
 }
 img {
     padding: 10px;
