@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <?php
@@ -35,14 +34,14 @@ body {
 }
 
 #navbar {
-	background: #01ae41;
+	background: rgba(0,0,0,.75);
 	height: 82px;
 	margin-top: -25px;
 	}
 
 #footer {
 	widows: 100%;
-	background: ##01ae41;
+	background: rgba(0,0,0,.75);
 	position: absolute;
     left: 0;
     bottom: 0;
@@ -69,19 +68,19 @@ body {
 h1 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: #01ae41 !important;
+	color: rgba(0,0,0,.75);
 }
 
 h2 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: #01ae41 !important;
+	color: rgba(0,0,0,.75);
 }
 
 h3 {
     font-family: 'Alfa Slab One', cursive;
 	margin: 0px;
-	color: #01ae41 !important;
+	color: rgba(0,0,0,.75);
 }
 img {
     padding: 10px;
@@ -109,7 +108,7 @@ img {
 <body>
 	<div id="navbar">
 		<div id="logo">
-			<a href="http://www.greendot.com" target="_blank"><img class="new-logo" src="images/g-logo-reverse.png"/></a>
+			<a href="http://www.redhat.com" target="_blank"><img class="new-logo" src="images/logo-reverse.png"/></a>
 		</div>
 
 
